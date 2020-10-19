@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Rooms2" />
@@ -34,7 +34,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Game" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Rooms2" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -43,13 +43,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -65,10 +65,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1099" y="252" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603116550976">
+    <state x="1099" y="252" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603117462180">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="1099" y="252" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2194.1194/3840.574.1920.1040@0.0.2194.1194" timestamp="1603116550976" />
+    <state x="1099" y="252" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2194.1194/3840.574.1920.1040@0.0.2194.1194" timestamp="1603117462180" />
     <state width="1054" height="330" key="GridCell.Tab.0.bottom" timestamp="1603117196228">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
