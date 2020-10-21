@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Player {
 
     // Fields
@@ -14,12 +12,6 @@ public class Player {
         playerName = name;
         playerTemp = temp;
         currentRoom = room;
-    }
-
-    // Method to get player input
-    public String getInput(){
-        Scanner input = new Scanner(System.in);
-        return input.nextLine();
     }
 
     // Method to see if player is still alive
