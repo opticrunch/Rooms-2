@@ -1,5 +1,11 @@
+// Driver class containing main
+
+// Import to use Scanner to get player input
+import java.util.Scanner;
+
 public class Game {
 
+    // Prints the game title logo
     public static void printLogo(){
         System.out.println("             _____   ____   ____  __  __  _____");
         System.out.println("            |  __ \\ / __ \\ / __ \\|  \\/  |/ ____|");
@@ -12,16 +18,18 @@ public class Game {
         System.out.println("|  | |__] ___] |__| |___ |__|  |  |___     /__ |___ |  \\ |__|\n");
     }
 
+    // Initializes the main menu
     public static void mainMenu(){
 
     }
 
+    // Main method
     public static void main(String[] args) {
 
         printLogo();
 
         mainMenu();
 
-        Player newPlayer = new Player(31, "Stephen");
+        Player player = new Player(31, "Stephen", 98.6, "CONTAINMENT");
     }
 }
