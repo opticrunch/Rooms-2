@@ -2,11 +2,11 @@ public class Item {
 
     // Fields
     String itemName;
-    boolean isPickedUp;
 
     // Constructor
-    public Item (String name, boolean pickedUp) {
+    public Item (String name) {
         itemName = name;
-        isPickedUp = pickedUp;
     }
+
+
 }

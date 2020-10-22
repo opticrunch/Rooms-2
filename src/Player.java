@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Player {
 
     // Fields
@@ -7,7 +10,7 @@ public class Player {
     String currentRoom;
 
     //Constructor
-    public Player(int age, String name, double temp, String room){
+    public Player(int age, String name, double temp, String room) {
         playerAge = age;
         playerName = name;
         playerTemp = temp;
@@ -15,39 +18,7 @@ public class Player {
     }
 
     // Method to see if player is still alive
-    public boolean isAlive(){
+    public boolean isAlive() {
         return playerTemp >= 95.0;
     }
-
-    /*
-    public String movePlayer(String playerInput){
-
-        String nextRoom;
-
-        switch (currentRoom){
-            case "CONTAINMENT":
-                if (playerInput == )
-                //code here
-                break;
-            case  "OBSERVATION":
-                //code here 2
-                break;
-            case "QUARTERS":
-                //code here 3
-                break;
-            case "ELECTRICAL":
-                //code here 4
-                break;
-            case "MESS HALL":
-                //code here 5
-                break;
-            case "DECONTAMINATION":
-                //code here 6
-            default:
-                //code here 7
-        }
-        return nextRoom;
-    }
-     */
-
 }
