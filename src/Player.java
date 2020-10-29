@@ -22,3 +22,4 @@ public class Player {
         return playerTemp >= 95.0;
     }
 }
+
